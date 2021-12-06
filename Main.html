@@ -27,9 +27,9 @@
   </head>
 
   <body>
-    <h1>Number guessing game</h1>
+    <h1>Jeu de devinettes de nombres</h1>
 
-    <p>We have selected a random number between 1 and 100. See if you can guess it in 10 turns or fewer. We'll tell you if your guess was too high or too low.</p>
+    <p>J'ai sélectionné un nombre aléatoire entre 1 et 100. Voyez si vous pouvez le deviner en 10 tours ou moins. Nous vous dirons si votre estimation était trop élevée ou trop faible.</p>
 
     <div class="form">
       <label for="guessField">Enter a guess: </label>
@@ -92,7 +92,7 @@
           guessField.disabled = true;
           guessSubmit.disabled = true;
           resetButton = document.createElement('button');
-          resetButton.textContent = 'Start new game';
+          resetButton.textContent = 'Commencer une nouvelle partie';
           document.body.appendChild(resetButton);
           resetButton.addEventListener('click', resetGame);
         }
